@@ -23,8 +23,7 @@ public class OrderUI extends UI {
 					+ "1.	Add Order Item\n"
 					+ "2.	Remove Order Item\n"
 					+ "3.	Print Order Invoice\n"
-					+ "4.	Print Sales Report\n"
-					+ "5.	Quit");	
+					+ "4.	Quit");	
 			try {
 				choice =scan.nextInt();
 				}
@@ -56,7 +55,7 @@ public class OrderUI extends UI {
 			default:
 				System.out.println("Invalid Input.");
 			}
-			} while(choice!=7);
+			} while(choice!=4);
 	}
 
 	public int getItemID() {

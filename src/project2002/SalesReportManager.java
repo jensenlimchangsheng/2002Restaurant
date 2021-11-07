@@ -20,4 +20,14 @@ public class SalesReportManager extends Manager {
 		report.InsertOrder(order);
 	}
 
+	public void printYearlyReport(int y){
+		report.printYearlyReport(y);
+	}
+	public void printMonthlyReport(int y, int m){
+		report.printMonthlyReport(y, m);
+	}
+	public void printDailyReport(int y, int m, int d){
+		report.printDailyReport(y, m, d);
+	}
+
 }

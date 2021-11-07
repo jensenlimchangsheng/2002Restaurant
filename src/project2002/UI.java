@@ -41,8 +41,8 @@ public abstract class UI {
 		try {
 			choice = scan.nextLine();
 		} catch (InputMismatchException e) {
-			String temp = scan.nextLine();
-			System.out.println("Invalid Input.");
+		String temp = scan.nextLine();
+		System.out.println("Invalid Input.");
 		}
 		return choice;
 	}
